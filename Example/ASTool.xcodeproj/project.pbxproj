@@ -40,12 +40,12 @@
 		607FACE51AFB9204008FA782 /* ASTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6C57B4AF3A79D77FD324BBA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6C57B4AF3A79D77FD324BBA9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8518CCF15F00DB75012312CD /* Pods-ASTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASTool_Tests/Pods-ASTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8734BB29D522A82EDF008F7E /* Pods_ASTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFB633AA02025DD805B8F49E /* Pods_ASTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA9E643FAC94FF2C530D8681 /* ASTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ASTool.podspec; path = ../ASTool.podspec; sourceTree = "<group>"; };
-		D509AC475ABA88D47F0B60BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BA9E643FAC94FF2C530D8681 /* ASTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ASTool.podspec; path = ../ASTool.podspec; sourceTree = "<group>"; };
+		D509AC475ABA88D47F0B60BE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E42C532D018C634276987916 /* Pods-ASTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASTool_Tests/Pods-ASTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -209,6 +209,7 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = AS;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;

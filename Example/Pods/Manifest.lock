@@ -1,0 +1,16 @@
+PODS:
+  - ASTool (0.1.0)
+
+DEPENDENCIES:
+  - ASTool (from `../`)
+
+EXTERNAL SOURCES:
+  ASTool:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ASTool: 53006fea9acebcc514b5039e95ed2cbc775303a3
+
+PODFILE CHECKSUM: 7627a693e9cbad5323a9da2d44830744f7703208
+
+COCOAPODS: 1.4.0

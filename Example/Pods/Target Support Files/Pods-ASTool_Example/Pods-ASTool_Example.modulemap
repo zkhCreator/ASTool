@@ -1,0 +1,6 @@
+framework module Pods_ASTool_Example {
+  umbrella header "Pods-ASTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

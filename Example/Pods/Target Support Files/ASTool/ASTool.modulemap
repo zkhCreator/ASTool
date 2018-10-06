@@ -1,0 +1,6 @@
+framework module ASTool {
+  umbrella header "ASTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
