@@ -19,6 +19,6 @@
     "ios": "8.0"
   },
   "source_files": [
-    "ASTool/Classes/DataModels/*"
+    "ASTool/Classes/**/*"
   ]
 }
